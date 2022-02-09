@@ -1,0 +1,1742 @@
+Unity Editor version:    2021.2.5f1 (4ec9a5e799f5)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #31-Ubuntu SMP Thu Jan 13 17:41:06 UTC 2022
+Kernel version:          5.13.0-28-generic
+Architecture:            x86_64
+Available memory:        31813 MB
+Using pre-set license
+Pro License: NO
+
+(Unity:56271): Gdk-CRITICAL **: 21:41:44.861: gdk_window_get_cursor: assertion 'GDK_IS_WINDOW (window)' failed
+Desktop is 4920 x 2058 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+/home/madman/Dev/Unity/HackAndSlashGame/Test
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+36899
+Successfully changed project path to: /home/madman/Dev/Unity/HackAndSlashGame/Test
+/home/madman/Dev/Unity/HackAndSlashGame/Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 35.10 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.5f1 (4ec9a5e799f5)
+[Subsystems] Discovering subsystems at path /home/madman/Unity-2021.2.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/madman/Dev/Unity/HackAndSlashGame/Test/Assets
+GLX Extensions: GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_visual_info GLX_EXT_visual_rating GLX_EXT_import_context GLX_SGI_video_sync GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGI_swap_control GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_buffer_age GLX_ARB_create_context GLX_ARB_create_context_profile GLX_NV_float_buffer GLX_ARB_fbconfig_float GLX_EXT_texture_from_pixmap GLX_EXT_framebuffer_sRGB GLX_NV_copy_image GLX_EXT_create_context_es_profile GLX_EXT_create_context_es2_profile GLX_ARB_create_context_no_error GLX_ARB_create_context_robustness GLX_NV_delay_before_swap GLX_EXT_stereo_tree GLX_ARB_context_flush_control GLX_NV_robustness_video_memory_purge GLX_NV_multigpu_context 
+Renderer: NVIDIA GeForce RTX 2070/PCIe/SSE2
+Vendor:   NVIDIA Corporation
+Version:  4.5.0 NVIDIA 470.103.01
+GLES:     0
+ GL_AMD_multi_draw_indirect GL_AMD_seamless_cubemap_per_texture GL_AMD_vertex_shader_viewport_index GL_AMD_vertex_shader_layer GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_bindless_texture GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_color_buffer_float GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_depth_texture GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_indirect GL_ARB_draw_elements_base_vertex GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_ES2_compatibility GL_ARB_ES3_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragmen
+t_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_geometry_shader4 GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_imaging GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_multisample GL_ARB_multitexture GL_ARB_occlusion_query GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_parameters GL_ARB_point_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoki
+ng_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_locations GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shading_language_100 GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_shadow GL_ARB_sparse_buffer GL_ARB_sparse_texture GL_ARB_sparse_texture2 GL_ARB_sparse_texture_clamp GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_A
+RB_texture_barrier GL_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map GL_ARB_texture_cube_map_array GL_ARB_texture_env_add GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_filter_anisotropic GL_ARB_texture_filter_minmax GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_mirrored_repeat GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_t
+ranspose_matrix GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_program GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ARB_window_pos GL_ATI_draw_buffers GL_ATI_texture_float GL_ATI_texture_mirror_once GL_S3_s3tc GL_EXT_texture_env_add GL_EXT_abgr GL_EXT_bgra GL_EXT_bindable_uniform GL_EXT_blend_color GL_EXT_blend_equation_separate GL_EXT_blend_func_separate GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_compiled_vertex_array GL_EXT_Cg_shader GL_EXT_depth_bounds_test GL_EXT_direct_state_access GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXTX_framebuffer_mixed_formats GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_geometry_shader4 GL_EXT_gpu_program_parameters 
+GL_EXT_gpu_shader4 GL_EXT_multi_draw_arrays GL_EXT_multiview_texture_multisample GL_EXT_multiview_timer_query GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_packed_pixels GL_EXT_pixel_buffer_object GL_EXT_point_parameters GL_EXT_polygon_offset_clamp GL_EXT_post_depth_coverage GL_EXT_provoking_vertex GL_EXT_raster_multisample GL_EXT_rescale_normal GL_EXT_secondary_color GL_EXT_separate_shader_objects GL_EXT_separate_specular_color GL_EXT_shader_image_load_formatted GL_EXT_shader_image_load_store GL_EXT_shader_integer_mix GL_EXT_shadow_funcs GL_EXT_sparse_texture2 GL_EXT_stencil_two_side GL_EXT_stencil_wrap GL_EXT_texture3D GL_EXT_texture_array GL_EXT_texture_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_latc GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_cube_map GL_EXT_texture_edge_clamp GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_EXT_texture_filter_anisotropic GL_EXT_texture_filter_minmax GL_EXT_texture_integer GL_EXT_texture_lod G
+L_EXT_texture_lod_bias GL_EXT_texture_mirror_clamp GL_EXT_texture_object GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_texture_sRGB_decode GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback2 GL_EXT_vertex_array GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_EXT_window_rectangles GL_EXT_x11_sync_object GL_EXT_import_sync_object GL_NV_robustness_video_memory_purge GL_IBM_rasterpos_clip GL_IBM_texture_mirrored_repeat GL_KHR_context_flush_control GL_KHR_debug GL_EXT_memory_object GL_EXT_memory_object_fd GL_NV_memory_object_sparse GL_KHR_parallel_shader_compile GL_KHR_no_error GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_EXT_semaphore GL_EXT_semaphore_fd GL_NV_timeline_semaphore GL_KHR_shader_subgroup GL_KTX_buffer_region GL_NV_alpha_to_coverage_dither_control GL_NV_bindless_multi_draw_indirect GL_NV_bindless_multi_draw_indirect_count GL_NV_bindless_texture GL_NV_blend_equation_advanced GL_NV_
+blend_equation_advanced_coherent GL_NVX_blend_equation_advanced_multi_draw_buffers GL_NV_blend_minmax_factor GL_NV_blend_square GL_NV_clip_space_w_scaling GL_NV_command_list GL_NV_compute_program5 GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_conservative_raster GL_NV_conservative_raster_dilate GL_NV_conservative_raster_pre_snap GL_NV_conservative_raster_pre_snap_triangles GL_NV_conservative_raster_underestimation GL_NV_copy_depth_to_color GL_NV_copy_image GL_NV_depth_buffer_float GL_NV_depth_clamp GL_NV_draw_texture GL_NV_draw_vulkan_image GL_NV_ES1_1_compatibility GL_NV_ES3_1_compatibility GL_NV_explicit_multisample GL_NV_feature_query GL_NV_fence GL_NV_fill_rectangle GL_NV_float_buffer GL_NV_fog_distance GL_NV_fragment_coverage_to_color GL_NV_fragment_program GL_NV_fragment_program_option GL_NV_fragment_program2 GL_NV_fragment_shader_barycentric GL_NV_fragment_shader_interlock GL_NV_framebuffer_mixed_samples GL_NV_framebuffer_multisample_coverage GL_NV_geometry_shader4 GL_NV_geometry_sha
+der_passthrough GL_NV_gpu_program4 GL_NV_internalformat_sample_query GL_NV_gpu_program4_1 GL_NV_gpu_program5 GL_NV_gpu_program5_mem_extended GL_NV_gpu_program_fp64 GL_NV_gpu_shader5 GL_NV_half_float GL_NV_light_max_exponent GL_NV_memory_attachment GL_NV_mesh_shader GL_NV_multisample_coverage GL_NV_multisample_filter_hint GL_NV_occlusion_query GL_NV_packed_depth_stencil GL_NV_parameter_buffer_object GL_NV_parameter_buffer_object2 GL_NV_path_rendering GL_NV_path_rendering_shared_edge GL_NV_pixel_data_range GL_NV_point_sprite GL_NV_primitive_restart GL_NV_query_resource GL_NV_query_resource_tag GL_NV_register_combiners GL_NV_register_combiners2 GL_NV_representative_fragment_test GL_NV_sample_locations GL_NV_sample_mask_override_coverage GL_NV_scissor_exclusive GL_NV_shader_atomic_counters GL_NV_shader_atomic_float GL_NV_shader_atomic_float64 GL_NV_shader_atomic_fp16_vector GL_NV_shader_atomic_int64 GL_NV_shader_buffer_load GL_NV_shader_storage_buffer_object GL_NV_shader_subgroup_partitioned GL_NV_shader_texture
+_footprint GL_NV_shading_rate_image GL_NV_stereo_view_rendering GL_NV_texgen_reflection GL_NV_texture_barrier GL_NV_texture_compression_vtc GL_NV_texture_env_combine4 GL_NV_texture_multisample GL_NV_texture_rectangle GL_NV_texture_rectangle_compressed GL_NV_texture_shader GL_NV_texture_shader2 GL_NV_texture_shader3 GL_NV_transform_feedback GL_NV_transform_feedback2 GL_NV_uniform_buffer_unified_memory GL_NV_vdpau_interop GL_NV_vdpau_interop2 GL_NV_vertex_array_range GL_NV_vertex_array_range2 GL_NV_vertex_attrib_integer_64bit GL_NV_vertex_buffer_unified_memory GL_NV_vertex_program GL_NV_vertex_program1_1 GL_NV_vertex_program2 GL_NV_vertex_program2_option GL_NV_vertex_program3 GL_NV_viewport_array2 GL_NV_viewport_swizzle GL_NVX_conditional_render GL_NV_gpu_multicast GL_NVX_progress_fence GL_NVX_gpu_memory_info GL_NVX_nvenc_interop GL_NV_shader_thread_group GL_NV_shader_thread_shuffle GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_OVR_multiview GL_OVR_multiview2 GL_SGIS_generate_mipmap
+ GL_SGIS_texture_lod GL_SGIX_depth_texture GL_SGIX_shadow GL_SUN_slice_accum
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1259586360
+Initialize mono
+Mono path[0] = '/home/madman/Unity-2021.2.5f1/Editor/Data/Managed'
+Mono path[1] = '/home/madman/Unity-2021.2.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/madman/Unity-2021.2.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56271
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/madman/Unity-2021.2.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: /home/madman/Unity-2021.2.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.004220 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 35.63 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.480 seconds
+Domain Reload Profiling:
+	ReloadAssembly (480ms)
+		BeginReloadAssembly (43ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (370ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (94ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (208ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002692 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.796 seconds
+Domain Reload Profiling:
+	ReloadAssembly (797ms)
+		BeginReloadAssembly (120ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (595ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (155ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (41ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (3ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1765 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (425.1 KB). Loaded Objects now: 2236.
+Memory consumption went from 85.4 MB to 85.0 MB.
+Total: 3.623300 ms (FindLiveObjects: 0.171883 ms CreateObjectMapping: 0.068254 ms MarkObjects: 2.947036 ms  DeleteObjects: 0.435140 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 25294.296670 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Deus.png
+  artifactKey: Guid(ee73175d6556308919a1b5ff33cdd541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Deus.png using Guid(ee73175d6556308919a1b5ff33cdd541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09def238e99fafe83f23f212da8c2f3d') in 0.050516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.525630 seconds.
+  path: Assets/Deus.png
+  artifactKey: Guid(aa2dd62daf134492a8525c8e590758e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deus.png using Guid(aa2dd62daf134492a8525c8e590758e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b636416a364765443b2dcdd57fbe7d74') in 0.005572 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.962688 seconds.
+  path: Assets/Deus.png
+  artifactKey: Guid(aa2dd62daf134492a8525c8e590758e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Deus.png using Guid(aa2dd62daf134492a8525c8e590758e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b51022974c68cedb88784d23f45036bc') in 0.059958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.984731 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png
+  artifactKey: Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonSpacebarSprite.png using Guid(3d8675433a508ec47b8f895201eacf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02b5ab346631eda619dbc0494c9aeeb2') in 0.017506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.306144 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png
+  artifactKey: Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonThumbstickUpSprite.png using Guid(9866a92691696b346901281f2b329034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e19519b707590889c2f887bfa395ce37') in 0.031579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.087619 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png
+  artifactKey: Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/ButtonTimescaleSlowUpSprite.png using Guid(9d7c6e4896067aa4fa512a00f692ac1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fff2a16baa296c445d9e709b22b11fc') in 0.009710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.304258 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png
+  artifactKey: Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/SliderBackgroundSprite.png using Guid(ea5873cfd9158664f89459f0c9e1d853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceaa2416b9fabb6552259078f6ba2810') in 0.026228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262346 seconds.
+  path: Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png
+  artifactKey: Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/CrossPlatformInput/Sprites/SliderHandleSprite.png using Guid(0626b924325d1c34cafa6b22297f4e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bddb0a413ac719c5339c4bb854ec0eb') in 0.008992 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002455 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.768 seconds
+Domain Reload Profiling:
+	ReloadAssembly (769ms)
+		BeginReloadAssembly (95ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (591ms)
+			LoadAssemblies (45ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (154ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (252ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1733 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (427.1 KB). Loaded Objects now: 2372.
+Memory consumption went from 88.5 MB to 88.1 MB.
+Total: 3.241298 ms (FindLiveObjects: 0.198663 ms CreateObjectMapping: 0.080461 ms MarkObjects: 2.667056 ms  DeleteObjects: 0.293830 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002391 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.753 seconds
+Domain Reload Profiling:
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (151ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1727 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (408.6 KB). Loaded Objects now: 2374.
+Memory consumption went from 88.3 MB to 87.9 MB.
+Total: 3.247524 ms (FindLiveObjects: 0.200506 ms CreateObjectMapping: 0.089743 ms MarkObjects: 2.623221 ms  DeleteObjects: 0.333051 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.745 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (576ms)
+			LoadAssemblies (37ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (153ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (246ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1727 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 17 unused Assets / (427.4 KB). Loaded Objects now: 2376.
+Memory consumption went from 88.3 MB to 87.9 MB.
+Total: 3.428236 ms (FindLiveObjects: 0.201762 ms CreateObjectMapping: 0.076869 ms MarkObjects: 2.700018 ms  DeleteObjects: 0.448006 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 296.987483 seconds.
+  path: Assets/Scenes/MainMenu.unity
+  artifactKey: Guid(3aab833fe9292ca6aa651c56d8d879e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainMenu.unity using Guid(3aab833fe9292ca6aa651c56d8d879e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12428e1b761dbd221d8fe3910b244e0') in 0.011306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.048607 seconds.
+  path: Assets/Scenes/LoadingScreen.unity
+  artifactKey: Guid(3effdb4343c24679fa45c85a0fa07ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/LoadingScreen.unity using Guid(3effdb4343c24679fa45c85a0fa07ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81aa6df66a14670152a5b039b02293af') in 0.002902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 316.268423 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(1fdf41a60dfdaf9939409be8c24f07a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(1fdf41a60dfdaf9939409be8c24f07a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07726dc4ed68db9331125d5fdecbbfc') in 0.005231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.090561 seconds.
+  path: Assets/World
+  artifactKey: Guid(67390e5868b3ed643b7a646fce0557c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World using Guid(67390e5868b3ed643b7a646fce0557c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8ceb53c6d9aafda0ad4cdb93ebcf8a') in 0.001169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.440082 seconds.
+  path: Assets/World/Floor.mat
+  artifactKey: Guid(153cff59c29fdfe4ca337da67e59a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Floor.mat using Guid(153cff59c29fdfe4ca337da67e59a578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f24f98189556d0cdad39c72d6bab6e') in 0.066380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.167019 seconds.
+  path: Assets/World/BOXOPHOBIC
+  artifactKey: Guid(7c748d59f031dbb4da8ab57b34b0d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/BOXOPHOBIC using Guid(7c748d59f031dbb4da8ab57b34b0d6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c68538afec101d60f78c3c3bcbc60') in 0.000682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.916260 seconds.
+  path: Assets/World/3DForge
+  artifactKey: Guid(3cd76c89267398642bd1589408c658c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/3DForge using Guid(3cd76c89267398642bd1589408c658c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa23f5781ab10aebc292e6ab1861b8e') in 0.001279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.181564 seconds.
+  path: Assets/World/3DForge/Blueprints
+  artifactKey: Guid(574f265e6f0fcbd4789867de57a04f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/3DForge/Blueprints using Guid(574f265e6f0fcbd4789867de57a04f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ec944747d935b842feb9b940db0952') in 0.001286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.486414 seconds.
+  path: Assets/World/Rocks and Boulders 2
+  artifactKey: Guid(945a6057797cb864e83773b44c0d32f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2 using Guid(945a6057797cb864e83773b44c0d32f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b703cc3cf6bcd8941ea3775c9f882f') in 0.000577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.284790 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(612b65e0cd1576e4bbba0516d756a99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Billboards.tga using Guid(612b65e0cd1576e4bbba0516d756a99d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3da6327eb8b7562ccc332101d240759') in 0.023467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020133 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga
+  artifactKey: Guid(855926cb3532dc14c87b1e6d589334b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Desktop_Atlas_Normal.tga using Guid(855926cb3532dc14c87b1e6d589334b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42161c65e25abae2a850146bbd3a6a26') in 0.018762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga
+  artifactKey: Guid(2b46b029d8dc37049aebb484e79998ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/ConiferBark_Normal.tga using Guid(2b46b029d8dc37049aebb484e79998ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e41005e331db86c0f194216315843348') in 0.006361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png
+  artifactKey: Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/ThirdPersonCharacter/Textures/EthanNormals.png using Guid(3b5b7be0f2332c24f89a2af018daa62d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd519a07144fc56fde53e8e611c9d42a2') in 0.034979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-5_comp_light.exr
+  artifactKey: Guid(a5b16cfd8da90e448a2e2f83fd540365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-5_comp_light.exr using Guid(a5b16cfd8da90e448a2e2f83fd540365) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458e07e82958c0b1f5dcb2bc670ab569') in 0.016460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun/machinegun_a.png
+  artifactKey: Guid(3304965300887674da981ee3b1ea7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/machinegun/machinegun_a.png using Guid(3304965300887674da981ee3b1ea7650) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5180efcd7d8eeec596c610bf05bfd218') in 0.003880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_a/lamp_laser_a_c.png
+  artifactKey: Guid(45fcaa60e080537489f42d498338d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_a/lamp_laser_a_c.png using Guid(45fcaa60e080537489f42d498338d701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b645d7f115b0207c16f8b78fcd1833') in 0.005695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Grenade/grenade.png
+  artifactKey: Guid(a4aada1e0e540dd489a1d29dcf0a4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Grenade/grenade.png using Guid(a4aada1e0e540dd489a1d29dcf0a4eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78016e3ecf298aaa33e0a3213f3ee9b6') in 0.003372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/knife/knife.png
+  artifactKey: Guid(3a33509ba548505449594854e7938e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/knife/knife.png using Guid(3a33509ba548505449594854e7938e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3189cd71eb0d117b2f6588d6419a29f') in 0.007048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd
+  artifactKey: Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/LightHardCookie.psd using Guid(1167c0a28d11119930004d8a4241aa39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59384bb925407536ef52e0be56a83e42') in 0.005050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/pumpgun_a/pumpgun_a.png
+  artifactKey: Guid(9a67714ff5d3ac541acb9b1dd38eaef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/pumpgun_a/pumpgun_a.png using Guid(9a67714ff5d3ac541acb9b1dd38eaef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354688cf3e74d87d3ef20f6b54d9f15b') in 0.006674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga
+  artifactKey: Guid(dd49a2ed5943a014e8d933ff5381281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark.tga using Guid(dd49a2ed5943a014e8d933ff5381281a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a553bd5a71aa23f76711b3f370c04e54') in 0.009848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail9_nmp.tif
+  artifactKey: Guid(40d7e466eee8bf94887ff82c1e1255e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail9_nmp.tif using Guid(40d7e466eee8bf94887ff82c1e1255e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d00b7574a4bda53acf691dd5622d064') in 0.008405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock4.tif
+  artifactKey: Guid(092dca7a8192dd548a017b0eb2af8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock4.tif using Guid(092dca7a8192dd548a017b0eb2af8d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0007bb8407503b7ca9462ae68d79eac') in 0.011751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge_edge01.tif
+  artifactKey: Guid(b38901ae2e7149540aaa7fe2697aba3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge_edge01.tif using Guid(b38901ae2e7149540aaa7fe2697aba3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2285b06e9df69d2dc0f5f8107221df9c') in 0.010172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock1_nmp.tif
+  artifactKey: Guid(42c12cb55ddd98245a0b2c96121c8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock1_nmp.tif using Guid(42c12cb55ddd98245a0b2c96121c8a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd92f0886671921b87be8d0ed28aa5bca') in 0.019439 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3342fd9625eef84a2fe2d264d8658a43') in 0.047213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_a/lamp_a.png
+  artifactKey: Guid(044a28b9f2665e4479bb772c47baee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_a/lamp_a.png using Guid(044a28b9f2665e4479bb772c47baee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48f46422face58fbde2e748fad89f32') in 0.004420 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif
+  artifactKey: Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_albedo.tif using Guid(43b54d39e0a4c4d47bef645abec127f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95816f6e5da6147ab21d77aa62b38303') in 0.006855 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ms.png
+  artifactKey: Guid(e31eafdbd8a85f34ab9dcd2fc9021997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ms.png using Guid(e31eafdbd8a85f34ab9dcd2fc9021997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c908c2e17050314dfc368b49391bb2') in 0.008597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png
+  artifactKey: Guid(36dd0b22da8874ed38075789055ca664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Textures/SimpleFoam.png using Guid(36dd0b22da8874ed38075789055ca664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '277203b4bd5bc8e290166583ba0e5b2f') in 0.005597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga
+  artifactKey: Guid(34d2758af9e0a2b4690fbcfcad0285d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop.tga using Guid(34d2758af9e0a2b4690fbcfcad0285d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14292481d2e5adaf5029f26ed3b1581d') in 0.008664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_b/red_dot_b.png
+  artifactKey: Guid(bbda667ebc8eda54fb0702028c5b8996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/red_dot_b/red_dot_b.png using Guid(bbda667ebc8eda54fb0702028c5b8996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a04fe6963570276670ee7cc8ffbd898') in 0.004879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail5_nmp.tif
+  artifactKey: Guid(bcf25bfea0bfd70469ba400a885d4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail5_nmp.tif using Guid(bcf25bfea0bfd70469ba400a885d4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e135d90e00599b8d2789a0dfbb3cd1e') in 0.006468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_b/lamp_b_emission.png
+  artifactKey: Guid(071b6ff63a6e487468e75f685d8980fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_b/lamp_b_emission.png using Guid(071b6ff63a6e487468e75f685d8980fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a1cee540dace195aec7dd01536ada10') in 0.003756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png
+  artifactKey: Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleFlamesSheet.png using Guid(4e505ad81f5b19c4cb6f445d36463955) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb354a23ff8e812042303886da6bede3') in 0.006389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail3.tif
+  artifactKey: Guid(85802eac53a318647b463cb048c1639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail3.tif using Guid(85802eac53a318647b463cb048c1639d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37a18c59a574eb9811eab8d2581cb2ba') in 0.005690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau01.tif
+  artifactKey: Guid(626e11c44313fda43a6979c9a04cd12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/plateau01.tif using Guid(626e11c44313fda43a6979c9a04cd12e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5306eb8d9da3f3bd8dda8f65ad3d898') in 0.015384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_a/lamp_laser_a_b.png
+  artifactKey: Guid(2a62b4ee1e9adaf429793c8a5d5a86ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_a/lamp_laser_a_b.png using Guid(2a62b4ee1e9adaf429793c8a5d5a86ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3093b6dd03f00b38cf4991e5cf83837') in 0.005063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge04.tif
+  artifactKey: Guid(440810c88740a8045949d48b489e443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge04.tif using Guid(440810c88740a8045949d48b489e443b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f7464187ab7b7f979998b5fcd7996f') in 0.011092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif
+  artifactKey: Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/moss_mask.tif using Guid(ff77b812a1621e74694371cb173618ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f51a3cf943e03966d319aea85de11ab') in 0.006791 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd
+  artifactKey: Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassRockyAlbedo.psd using Guid(440eb36db91ca410f800ff3cfe43572f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d9e9ec6fa920d5f86b9785815319ca1') in 0.006067 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/errosion02.tif
+  artifactKey: Guid(8d909223d66b7cd4d9719d37ee403dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/errosion02.tif using Guid(8d909223d66b7cd4d9719d37ee403dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4e40dbedabba9839d7e42a91a754bbe') in 0.010010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_nmp.tif
+  artifactKey: Guid(c208f128e624c474bb2241affee1c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_nmp.tif using Guid(c208f128e624c474bb2241affee1c866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '793fd4f2a28eeb46d619abd8004902b9') in 0.009248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd
+  artifactKey: Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightFlares/Textures/Flare50mm.psd using Guid(23a02ac18d11c9ffa0009c58a8ad6659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b39dcf88a507b8cc6c043d4e42b37e') in 0.004197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png
+  artifactKey: Guid(9486e5d1d37e86246b9bd1e314a8a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarWheelOcclusion.png using Guid(9486e5d1d37e86246b9bd1e314a8a721) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc69129519f48422c5b36780a3a5107') in 0.004185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga
+  artifactKey: Guid(ab89d7e9dbd9462458ecef029ee60f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Conifer/Conifer_Needles_Desktop_Normal.tga using Guid(ab89d7e9dbd9462458ecef029ee60f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7b73b83e87e92eb2cd509e7cd5b1f97') in 0.006287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_ms.png
+  artifactKey: Guid(e0a129ea7aef5bf49a02cdc7e2c0c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_ms.png using Guid(e0a129ea7aef5bf49a02cdc7e2c0c943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073ed88e3c7f63345850df4902d136c3') in 0.009969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail10.tif
+  artifactKey: Guid(89ee248f3f8054548b2cbf49274c5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail10.tif using Guid(89ee248f3f8054548b2cbf49274c5540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb7fbae73f366844f145a472cf511bb4') in 0.007226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/HunterRifle/HunterRifle_a.png
+  artifactKey: Guid(6cc2983959cb54943a73a09affb8d2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/HunterRifle/HunterRifle_a.png using Guid(6cc2983959cb54943a73a09affb8d2a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4e5157415ff814dbf0491e7788650d') in 0.003739 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/World/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
+  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c499ee32935c91861263a26727b4e2be') in 0.158128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif
+  artifactKey: Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/rock_albedo.tif using Guid(f7dd726c93b8f17418ea3be3f6768909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72b66f7e34b330a14a3b71801403c3e2') in 0.006228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail8_nmp.tif
+  artifactKey: Guid(bc51ce897c3829c408ba9c4bf9390954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail8_nmp.tif using Guid(bc51ce897c3829c408ba9c4bf9390954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c8bff204083bf7b9f0558cc7b35f1a') in 0.007125 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif
+  artifactKey: Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/LightCookies/Textures/FlashlightCookie.tif using Guid(2c29c08dd1c0b6749b7cd0fcff7a29fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc5aa3173182231f122e92f9ba97b1c') in 0.005804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5.tif
+  artifactKey: Guid(312c93ed564bd8840ab4818e3db14d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5.tif using Guid(312c93ed564bd8840ab4818e3db14d8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cdb2a2fbbbb54976a35c6bc95bcc8b') in 0.007264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ao.png
+  artifactKey: Guid(11cb6765864eda847a33cdceac63bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_ao.png using Guid(11cb6765864eda847a33cdceac63bbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b5e30ee9015b1f0de4a910cf12754e') in 0.007777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/World/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
+  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '133bb1e8bb72b4f0f6151dcc191217a3') in 0.249280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png
+  artifactKey: Guid(7700d93a317c89246a647c7a6c3e7399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Characters/RollerBall/Textures/RollerBallSpecularGloss.png using Guid(7700d93a317c89246a647c7a6c3e7399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf4d60867ea9a7352591b88386af818') in 0.004445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(6af82a665aaf44c41874a383a4225c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Specular.tga using Guid(6af82a665aaf44c41874a383a4225c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5195dbc8a2e0a25f6012b7d3da993e') in 0.006143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/scope_tex_emission.png
+  artifactKey: Guid(ccdcc954f4a14b54d999c04e2adf830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/revolver/scope_tex_emission.png using Guid(ccdcc954f4a14b54d999c04e2adf830e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06bc86a0e16c983bce407ca2fe3472c0') in 0.010838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Shotgun3/Shotgun3.png
+  artifactKey: Guid(6d0aca4ebb1294c408eb0c9d009c7f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Shotgun3/Shotgun3.png using Guid(6d0aca4ebb1294c408eb0c9d009c7f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a44be8349b41c696e31baa770a00fe') in 0.005897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/sce5/sce5.png
+  artifactKey: Guid(83ac537e54e05954f91627d698602680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/sce5/sce5.png using Guid(83ac537e54e05954f91627d698602680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b46c9851a84cf6f74d9152d19af14') in 0.004189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail10_nmp.tif
+  artifactKey: Guid(7f12407c374d40e49899f9cab23e5cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail10_nmp.tif using Guid(7f12407c374d40e49899f9cab23e5cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f4f2d4c84592b57770c4dbeb609de6') in 0.006220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png
+  artifactKey: Guid(732e2eebfe574ca47ba46cc3a67965fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleBokeh.png using Guid(732e2eebfe574ca47ba46cc3a67965fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '021f99c14332e1ae34be33aeb07655a3') in 0.005468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail6.tif
+  artifactKey: Guid(98b867924d19a23419a46124897d4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail6.tif using Guid(98b867924d19a23419a46124897d4937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fcae3ee14cbf77c7c4fa2ab1fe4dcf0') in 0.005717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge03.tif
+  artifactKey: Guid(b1dadb884e92879469e470aba88f0096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge03.tif using Guid(b1dadb884e92879469e470aba88f0096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b104bd62960b2c78274ffb86f24d59ba') in 0.010602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock6.tif
+  artifactKey: Guid(2c14dee6b3a5fa4448cc7da72765ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock6.tif using Guid(2c14dee6b3a5fa4448cc7da72765ddde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8004658deb85634595c4f3342cef8b') in 0.006972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_b/lamp_laser_b.png
+  artifactKey: Guid(c821dba5eb541754b87dcc93c9dbe2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/lamp_laser_b/lamp_laser_b.png using Guid(c821dba5eb541754b87dcc93c9dbe2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0071fda500c5c1276343af6a1007c195') in 0.003967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif
+  artifactKey: Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/snow_albedo.tif using Guid(0cc0777f7d4a3444380eb084d74396b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc62cc0386e4fff905ad68986888a0d') in 0.005170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/HunterRifle/HunterRifle_b.png
+  artifactKey: Guid(5300ac159b6418b46944c32dc481c30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/HunterRifle/HunterRifle_b.png using Guid(5300ac159b6418b46944c32dc481c30a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829554d3bf53181b76599a462a6148ab') in 0.004560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_snow.tif
+  artifactKey: Guid(64ae36b4bdd83844aa64bb7fec019aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_snow.tif using Guid(64ae36b4bdd83844aa64bb7fec019aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40150cb2a4ae89df3cdcc19c53cfbdac') in 0.007200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_snow.tif
+  artifactKey: Guid(b7a96b9d5a1c9ff49a691b1ae2e98959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_snow.tif using Guid(b7a96b9d5a1c9ff49a691b1ae2e98959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f06982244af125130ee974b702147d89') in 0.006967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail9.tif
+  artifactKey: Guid(30cc329797fd9684bb7c6608318df508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail9.tif using Guid(30cc329797fd9684bb7c6608318df508) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8782ff6ed6382fd566edc274c8c52f5c') in 0.006259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock1_h.png
+  artifactKey: Guid(d522c8a14f47f2f4e94a216d1f8f4cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock1_h.png using Guid(d522c8a14f47f2f4e94a216d1f8f4cd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe71ec3cbe53622a79904ef7322ed36b') in 0.007866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth01.tif
+  artifactKey: Guid(fc6089e3bffbdc9489980dbed57a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth01.tif using Guid(fc6089e3bffbdc9489980dbed57a64f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b40d21d6686dc35d5f31926196a06b') in 0.006770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_snow.tif
+  artifactKey: Guid(f2eda5f416012234b9a9af83bb3797f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_snow.tif using Guid(f2eda5f416012234b9a9af83bb3797f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832c075354f54714446ac18af1791429') in 0.006882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail8.tif
+  artifactKey: Guid(7bf0f3566beb89f4fb8785f70c000c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail8.tif using Guid(7bf0f3566beb89f4fb8785f70c000c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb001baffd4a0d39c5db8e8a51ef693') in 0.006716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/laser_b/laser_b.png
+  artifactKey: Guid(5615e5b3c1d4c1740854413f9c869ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/laser_b/laser_b.png using Guid(5615e5b3c1d4c1740854413f9c869ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f302a9b22a566eac821a9223087f717') in 0.003553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-4_comp_light.exr
+  artifactKey: Guid(0007885fe1ebcc04cbed6e7f8efa43f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-4_comp_light.exr using Guid(0007885fe1ebcc04cbed6e7f8efa43f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab968ec392c59529455553bc805e90b') in 0.006762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png
+  artifactKey: Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Car/Textures/SkyCarLightsGlowAlpha.png using Guid(6fc19647dd174e04e9793be879aea216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ef10daa7399d2974087fba2fef9abe') in 0.005952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_snow.tif
+  artifactKey: Guid(ff05ac7b888a0384186a6037880d355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_snow.tif using Guid(ff05ac7b888a0384186a6037880d355b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4142ff98f7bacc8b2bbfbd71dd04f423') in 0.008356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga
+  artifactKey: Guid(4d6c994b9ad45b847bc67ec5f857fc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/PalmBark_Detail.tga using Guid(4d6c994b9ad45b847bc67ec5f857fc78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b5078d5ee0de8bb3ce7acc995ee6e2') in 0.007279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-2_comp_light.exr
+  artifactKey: Guid(fe1faccc751b0d247919c402e5bcfd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-2_comp_light.exr using Guid(fe1faccc751b0d247919c402e5bcfd8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f82372f7a43df99002a141f620e98e9') in 0.006608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain08.tif
+  artifactKey: Guid(d5428cdc2df49fc4a9aa5bbbcfcfe0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain08.tif using Guid(d5428cdc2df49fc4a9aa5bbbcfcfe0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d662f8102250fba061f1e48db385696') in 0.009884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/magnum.png
+  artifactKey: Guid(144b60e6fdf147046b581b57aa0d4f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/bullet_shells_fbxTexMat/magnum.png using Guid(144b60e6fdf147046b581b57aa0d4f8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9aa6ae59551f9926ce83fbd68655f1') in 0.003867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif
+  artifactKey: Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_albedo.tif using Guid(6bcc65b7c6e3a0b448d7801bfc56842f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d9d84d49f9c909b70b61d1b4d17a38') in 0.006401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif
+  artifactKey: Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/sand_mask.tif using Guid(58a4a6310bd23844bae88d82f7916059) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d9baf05386a8e489a779938e83b9db5') in 0.006122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/RP9/RP9_b.png
+  artifactKey: Guid(a96a95e39e746624381eee7ac9dbbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/RP9/RP9_b.png using Guid(a96a95e39e746624381eee7ac9dbbc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5a23eaa80454eabbec37dd8edb841bb') in 0.005829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail5.tif
+  artifactKey: Guid(686064a605073d24380ee520c591a335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail5.tif using Guid(686064a605073d24380ee520c591a335) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e394bc37819cd10d1700c6bbdbece0') in 0.006344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif
+  artifactKey: Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/TerrainTextures/screen_normal.tif using Guid(703d1f74c69fc95498dcfd0afe8e1d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1d9e5b420bfc48e861f5f437f4730a0') in 0.007076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Weapons/POLYGON weapons/Scenes/Show_scene/ReflectionProbe-0.exr
+  artifactKey: Guid(3125190a9c4b52d40bc1eb29bf5675c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Scenes/Show_scene/ReflectionProbe-0.exr using Guid(3125190a9c4b52d40bc1eb29bf5675c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c4e21b285a81724c07d6fcd7811640') in 0.008918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail3_nmp.tif
+  artifactKey: Guid(24bcc36f93b595a4c86ae1f93c308352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail3_nmp.tif using Guid(24bcc36f93b595a4c86ae1f93c308352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48efa4a1afa16050fb66c4e69691751d') in 0.006467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_nmp.tif
+  artifactKey: Guid(9097a6a42d07fe2479d0545fcd6b6280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock3_nmp.tif using Guid(9097a6a42d07fe2479d0545fcd6b6280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916ca420d12938fcc0651a5f549def0c') in 0.010502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail7_nmp.tif
+  artifactKey: Guid(5f77f20afa4153d47b190a7defc9edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail7_nmp.tif using Guid(5f77f20afa4153d47b190a7defc9edf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9ae235edd12874f817782e32a8c8602') in 0.006778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd
+  artifactKey: Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/GrassHillAlbedo.psd using Guid(c6e0767b1f8c34890ac245217f4b9731) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3de4873250d77730782e2095b8d1e08') in 0.005520 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_h.png
+  artifactKey: Guid(0f4ca202c9a9aea47b30a1fa32effc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_h.png using Guid(0f4ca202c9a9aea47b30a1fa32effc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b82532655a569d1a7b14dc836c88067') in 0.007047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth02.tif
+  artifactKey: Guid(ce389a44803b703498159190bc7d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/cracked_earth02.tif using Guid(ce389a44803b703498159190bc7d48af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be33e76afdae461ced024f2c2f3609fd') in 0.006391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga
+  artifactKey: Guid(bf8162ab40cfad34cac743bdc2939f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Palm_Desktop_Atlas_Billboards_Normal.tga using Guid(bf8162ab40cfad34cac743bdc2939f99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8b6c73e6d18d6aaaeed9d2e8e90b34') in 0.007445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge06.tif
+  artifactKey: Guid(deb3fcdbaaa2cf64f90d5a341ffd9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge06.tif using Guid(deb3fcdbaaa2cf64f90d5a341ffd9939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '759ecf03d8ade48cf1852190e9f12434') in 0.011274 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain07.tif
+  artifactKey: Guid(ce420f179549a9c4f9a08a26260e8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/mountain07.tif using Guid(ce420f179549a9c4f9a08a26260e8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ba26463fbc5372b7e9439867a197da') in 0.011535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge02.tif
+  artifactKey: Guid(753f8aefff7f53945bb09d75656ba8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/ridge02.tif using Guid(753f8aefff7f53945bb09d75656ba8de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf6818695c2d9acb246b7d3ba8cdcab') in 0.009555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif
+  artifactKey: Guid(19555d7d9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/GlassRefraction/Textures/GlassStainedAlbedo.tif using Guid(19555d7d9d114c7f1100f5ab44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78bf0719714e8ebb4d9f38b0eec3a72f') in 0.005996 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock6_ms.png
+  artifactKey: Guid(e677615ec9e660f4691a28a7e6abbfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock6_ms.png using Guid(e677615ec9e660f4691a28a7e6abbfa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac06e696e66ae2e44a6132ec164f1ace') in 0.009021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(b0c7041a12167a446a299f41105a667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Scenes/Show_scene/Lightmap-2_comp_dir.png using Guid(b0c7041a12167a446a299f41105a667b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dfd3b10db47ea20c74b66df7ab1638f') in 0.006058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail1_nmp.tif
+  artifactKey: Guid(0b099f8fbac461345b2a4bf38d9538e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail1_nmp.tif using Guid(0b099f8fbac461345b2a4bf38d9538e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e17310b2858bda7ba8fbad64f55c7238') in 0.006657 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Lock_c.png
+  artifactKey: Guid(45361d3eca3b58d408895f88e5747eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Lock/Lock_c.png using Guid(45361d3eca3b58d408895f88e5747eb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda7b3c3f10b9f53c6de683111541704') in 0.006983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_nmp.tif
+  artifactKey: Guid(3a821c28b70b2b447ab3e66e3a2229e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_nmp.tif using Guid(3a821c28b70b2b447ab3e66e3a2229e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b3eb00afd913ae0b38ad44ae467ed9') in 0.008830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_h.png
+  artifactKey: Guid(a639ed01446aa774992a6d74a1260740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock4_h.png using Guid(a639ed01446aa774992a6d74a1260740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db36e995fb6da3bde6e3bf4fcc9e6c4') in 0.007797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/soft_peaks01.tif
+  artifactKey: Guid(adfba81bdb8d30048bbea4ad595dbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/soft_peaks01.tif using Guid(adfba81bdb8d30048bbea4ad595dbab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bf7d4bfc824a9726cc6fb2d1a9375f') in 0.006857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png
+  artifactKey: Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/ParticleCloudBlack.png using Guid(830884c18cf5e7a4895ee02c2dcd8e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a032ab946968738ed5fe63f43b0c39d') in 0.006590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd
+  artifactKey: Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/BillboardTextures/GrassFrond02AlbedoAlpha.psd using Guid(d6cdc79ec19714fcd980ca3f6ac01a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6e0c5f57db655116d0d0b2fda3a072') in 0.005215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_ao.png
+  artifactKey: Guid(e33cfde976023144c9866837549818a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock2_ao.png using Guid(e33cfde976023144c9866837549818a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aecc0aa238010f692ab66fc604e57293') in 0.007646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/old_pistol/old_pistol_b.png
+  artifactKey: Guid(d63db9356898cbf46a07fea91ac35ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/old_pistol/old_pistol_b.png using Guid(d63db9356898cbf46a07fea91ac35ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b910288f14db21e627dcbe375ddc5d6') in 0.003960 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail1.tif
+  artifactKey: Guid(19b818e26c2922a488c06b1fbdae5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rockdetail1.tif using Guid(19b818e26c2922a488c06b1fbdae5df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d2a110e5af2610abcfef47c8d38a107') in 0.007312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_ms.png
+  artifactKey: Guid(007c7f9a6c3681e4aa289b2e0e210b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/Rocks and Boulders 2/Rocks/Source/Textures/Rock5_ms.png using Guid(007c7f9a6c3681e4aa289b2e0e210b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a799db81dd254ed209b5850ec77ed2f') in 0.009686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839754 seconds.
+  path: Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png
+  artifactKey: Guid(8e44fe896458128418bff33ed3981421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/ParticleSystems/Textures/SplashesFineParticle.png using Guid(8e44fe896458128418bff33ed3981421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30c5487c44670beac4b6c28715dcfe4c') in 0.005637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Axe_4/TX_axe_4_metallic.png
+  artifactKey: Guid(5a3b4c25f8b07544a84c67e1e5ed8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Axe_4/TX_axe_4_metallic.png using Guid(5a3b4c25f8b07544a84c67e1e5ed8f17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc62f18c1b941a737c117f54229dbfd') in 0.023686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/StreetSub/StreetSub_b.png
+  artifactKey: Guid(28c79f9f39837d247bb5d72e5f5ad0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/StreetSub/StreetSub_b.png using Guid(28c79f9f39837d247bb5d72e5f5ad0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d6afb3710cf57e630c21d74af0de68a') in 0.003707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/tarusk/tarusk_a.png
+  artifactKey: Guid(0f54c8bfa523b8a4f9d49fd3683ab088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/tarusk/tarusk_a.png using Guid(0f54c8bfa523b8a4f9d49fd3683ab088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c025993f6fbfce784a4040587062cfd3') in 0.005236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg
+  artifactKey: Guid(a6e42589b1029ec4d962f422f92e554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Palm/Thumb_Palm_Desktop.jpg using Guid(a6e42589b1029ec4d962f422f92e554a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4716a41d53311cdde64210ddb2ad9f') in 0.004428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_d/suppressor_d.png
+  artifactKey: Guid(ea2074970a0102a43a8b0752ffd0b33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_d/suppressor_d.png using Guid(ea2074970a0102a43a8b0752ffd0b33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1292cb9353f5eb7b6d9ec791825d5f') in 0.006233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Axe_4/TX_axe_4_ao.png
+  artifactKey: Guid(8dacf55c5d395184c9615e9107f2dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Axe_4/TX_axe_4_ao.png using Guid(8dacf55c5d395184c9615e9107f2dc25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a46badca4a1941e0ef3c133cc3c2f959') in 0.012549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Sturmgewehr46/Sturmgewehr46_a.png
+  artifactKey: Guid(c5c89abdf27ba2545ba3d33a77476acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Sturmgewehr46/Sturmgewehr46_a.png using Guid(c5c89abdf27ba2545ba3d33a77476acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52e03831be5096310e3f55ed08e0c45a') in 0.003785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_a/suppressor_a.png
+  artifactKey: Guid(b44c831f7859f8a49b997114e67fbdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/equipment_mats/suppressor_a/suppressor_a.png using Guid(b44c831f7859f8a49b997114e67fbdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d2ae21bb440cff60e594d9c91dd5d3') in 0.003740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Submachine5/Submachine5.png
+  artifactKey: Guid(be8fb33081246aa4eba7cba0da41e4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Submachine5/Submachine5.png using Guid(be8fb33081246aa4eba7cba0da41e4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2e9c2825a3567cd86dedf1e7ced49a1') in 0.005291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.042530 seconds.
+  path: Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Axe_4/TX_axe_4_normal.png
+  artifactKey: Guid(39613d91fe598624b9c46900639c1592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Axe_4/TX_axe_4_normal.png using Guid(39613d91fe598624b9c46900639c1592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d40964cd4a02ffad4f77b5667f1e6e') in 0.026231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Weapons/POLYGON weapons/Show_scene_unofficial/Data/white_wall.png
+  artifactKey: Guid(45f544f750ae24c42b162d20b5becc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Show_scene_unofficial/Data/white_wall.png using Guid(45f544f750ae24c42b162d20b5becc1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '175b3eb8e4ad983cc4fdd0077b6f3649') in 0.006057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd
+  artifactKey: Guid(047330f39d11745ad0004adb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicDaytimeGradient.psd using Guid(047330f39d11745ad0004adb8d76c639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e80c1e2f76e1def9f68a11ed352e64') in 0.005428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Sword_1/TX_sword_01_ao.png
+  artifactKey: Guid(29e76ce412d5239429d7f27ee44ea6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Sword_1/TX_sword_01_ao.png using Guid(29e76ce412d5239429d7f27ee44ea6ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8ca1580920da3a39de6f39af23c61e') in 0.012944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/volcano01.tif
+  artifactKey: Guid(bd916b355f53ab144901eeb862a0be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/volcano01.tif using Guid(bd916b355f53ab144901eeb862a0be0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c43ed7479ae68df01088de0cca02f951') in 0.015463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg
+  artifactKey: Guid(a53cf5449d11a15d1100a04b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water (Basic)/Textures/WaterBasicNormals.jpg using Guid(a53cf5449d11a15d1100a04b44295342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9654a0020c184c94bdc220242f6ad4') in 0.006943 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Sword_1/TX_sword_01_normal.png
+  artifactKey: Guid(97a2ddb6e35912a498dd00e655d78356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/TriForge Assets/Medieval Weapons/Weapons/Sword_1/TX_sword_01_normal.png using Guid(97a2ddb6e35912a498dd00e655d78356) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63bea528bdd3070e2dc14d7124354652') in 0.024494 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.085600 seconds.
+  path: Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png
+  artifactKey: Guid(f7c27487b4792e640b8816a7e0e2f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Vehicles/Aircraft/Textures/AircraftWingsJetNormals.png using Guid(f7c27487b4792e640b8816a7e0e2f5dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a8644f5857f3d7ac69b1db3dfb995fe') in 0.039938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/World/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerBegin.psd
+  artifactKey: Guid(9515108b8376ad7418e8138858201b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerBegin.psd using Guid(9515108b8376ad7418e8138858201b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d82efddfadcfea52e0aec9984c760d') in 0.005382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon03.tif
+  artifactKey: Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/canyon03.tif using Guid(00e07f21ff32c094ea64f6753fb3b542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f9c30d7d864647a447ad9899048ae5') in 0.008569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga
+  artifactKey: Guid(2c116325e19b8a04d916864cc540ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas.tga using Guid(2c116325e19b8a04d916864cc540ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24b97495872537b356243f9032665526') in 0.010230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/clouds.tif
+  artifactKey: Guid(791ebe8a3d329b34ca7dc4616ec3cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Terrain Tools/0.1.0-preview/Terrain Assets/BrushTextures/clouds.tif using Guid(791ebe8a3d329b34ca7dc4616ec3cd34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2571daebb551ebb01e01614cc00725d') in 0.012463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Blast_set/Blast_set.png
+  artifactKey: Guid(260918ca9dcd37546ab1a7af8f0abd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Blast_set/Blast_set.png using Guid(260918ca9dcd37546ab1a7af8f0abd8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219e1357296142b8c83ce3603f9b4944') in 0.007497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga
+  artifactKey: Guid(34f07406286974e4ca236867d8d58b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/BroadleafBark_Normal.tga using Guid(34f07406286974e4ca236867d8d58b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8748a273c7d71663156186feb24bb004') in 0.006447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_b.png
+  artifactKey: Guid(1dde1dd48aafd37419554c6e1e261d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_b.png using Guid(1dde1dd48aafd37419554c6e1e261d51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcff7ea1f93ed5d1be5907cf3d31893') in 0.006326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga
+  artifactKey: Guid(f82badc465974aa4cbc424065780aa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/ClippedFrond.tga using Guid(f82badc465974aa4cbc424065780aa3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0b271c674b5786040d1dc3c3853d50') in 0.005537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga
+  artifactKey: Guid(6308da3d0ff986b42be3b0a6ea5b6fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Card_Desktop_Spec.tga using Guid(6308da3d0ff986b42be3b0a6ea5b6fae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9aef6d848d0403ce520d9b7d00b0db') in 0.005940 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga
+  artifactKey: Guid(951aab9a19f551f4385d0ceafdaf19b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Billboards.tga using Guid(951aab9a19f551f4385d0ceafdaf19b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b055c55744a08d33b2abee639e2fe29e') in 0.007200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/World/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerEnd.psd
+  artifactKey: Guid(0dd3fbd5475976a4aa96298afc680d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/World/BOXOPHOBIC/Utils/Editor/Resources/Boxophobic - BannerEnd.psd using Guid(0dd3fbd5475976a4aa96298afc680d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf962afa777193ff5c52237fea3b1c6f') in 0.003796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga
+  artifactKey: Guid(e7b2d3eeb0a4d694792c93a8ab87e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaves_Desktop_Normal.tga using Guid(e7b2d3eeb0a4d694792c93a8ab87e4a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19dfbb84433566cd4671bb34b917721e') in 0.005836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd
+  artifactKey: Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/TerrainAssets/SurfaceTextures/CliffAlbedoSpecular.psd using Guid(18214e9d6af6248559d501391856f1c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b20d63cea15fc9895d2e8c5eec1980') in 0.006311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga
+  artifactKey: Guid(ee07ea8cb1a00c844b4048d37dcfe712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Cap_02.tga using Guid(ee07ea8cb1a00c844b4048d37dcfe712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cfe0c1ce347b2b7812e0c8844109d09') in 0.006622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga
+  artifactKey: Guid(b552931caa1b3ea418b9ba90cbd1333e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Normal.tga using Guid(b552931caa1b3ea418b9ba90cbd1333e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5222e6184e7c5ae7262d862e7ac046f') in 0.006193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Buzzsub/Buzzsub_c.png
+  artifactKey: Guid(a8a234f2551a00d418c6ddf3488233ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Buzzsub/Buzzsub_c.png using Guid(a8a234f2551a00d418c6ddf3488233ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bac529bac420bf1cb93523beb795ef7e') in 0.005783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/ClusterSub/ClusterSub.png
+  artifactKey: Guid(7d509160ddff641409dde36ccfb5dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/ClusterSub/ClusterSub.png using Guid(7d509160ddff641409dde36ccfb5dd9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c1e3cf82b0f826f01314d0b4163bf9') in 0.003857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png
+  artifactKey: Guid(e08c295755c0885479ad19f518286ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Effects/TessellationShaders/Textures/CliffNormals.png using Guid(e08c295755c0885479ad19f518286ff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b151dc74f4d17ad6a7cddae785e1d7c4') in 0.006714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Buzzsub/Buzzsub_b.png
+  artifactKey: Guid(f28a71b4fe0cec94d85c604520fd4379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Buzzsub/Buzzsub_b.png using Guid(f28a71b4fe0cec94d85c604520fd4379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dceb5c8d230341be67bd716fa5ea054e') in 0.004036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga
+  artifactKey: Guid(c9de3ae2361df6c469caeb2024321cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Mobile_Atlas_Billboards_Normal.tga using Guid(c9de3ae2361df6c469caeb2024321cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c540714e44d3769345135b97231dfd06') in 0.006819 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga
+  artifactKey: Guid(d954891cb9e58434d86e01d839ed4997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/SpeedTree/Broadleaf/Broadleaf_Desktop_Atlas_Specular.tga using Guid(d954891cb9e58434d86e01d839ed4997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67afcdca5e03bf824ecfe6a4e9c9ec04') in 0.005631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_a.png
+  artifactKey: Guid(394581e33c5e59c4480849e3e9149110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/POLYGON weapons/Assets_official/FBXTexMat/POLYGON weapons pack/Auge/Auge_a.png using Guid(394581e33c5e59c4480849e3e9149110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bce7ad824812ee34de79d91196112da') in 0.004789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.294996 seconds.
+  path: Assets/NewBrush.brush
+  artifactKey: Guid(772610bf80f114089972330d244a33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewBrush.brush using Guid(772610bf80f114089972330d244a33b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40401782a877aa50917e5f8ef0df76d1') in 0.013620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.852707 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial
+  artifactKey: Guid(9f93f63d068b08c459038c40fce897d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Bouncy.physicmaterial using Guid(9f93f63d068b08c459038c40fce897d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '906a2a4d1437eac46bb2cf55936e9255') in 0.000842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011510 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial
+  artifactKey: Guid(ba92fb44336020f40bdf294bb66bc9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Ice.physicmaterial using Guid(ba92fb44336020f40bdf294bb66bc9da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4bcd54829fe0fe09e7a9adf5cfe1c4d') in 0.001007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial
+  artifactKey: Guid(3aeb7dadc0c69d54d9e5777e9d5631f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/PhysicsMaterials/Wood.physicmaterial using Guid(3aeb7dadc0c69d54d9e5777e9d5631f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e887b82fe25dcbb52c3e1247867c9f52') in 0.000945 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+All object instances wasn't destroyed before shutting down
+Assertion failed on expression: 'm_MemoryFSRefCount == 0'
+Memory Statistics:
+[ALLOC_TEMP_TLS] TLS Allocator
+  StackAllocators : 
+    [ALLOC_TEMP_CurlRequest]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager]
+      Peak usage frame count: [0-1.0 KB]: 1 frames
+      Initial Block Size 32.0 MB
+      Current Block Size 32.0 MB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 11]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BakingJobs.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherHasher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.FileHasherReader]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 31 B
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.AsyncRead]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_BatchDeleteObjects]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 15]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 14]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 13]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 12]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 11]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 10]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 9]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 8]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 7]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 6]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 5]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 4]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 3]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 2]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 1]
+      Initial Block Size 32.0 KB
+      Current Block Size 32.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Background Job.Worker 0]
+      Initial Block Size 32.0 KB
+      Current Block Size 68.0 KB
+      Peak Allocated Bytes 32.8 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 10]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 9]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 8]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 7]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 6]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 5]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 4]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 3]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 2]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 1]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Job.Worker 0]
+      Initial Block Size 256.0 KB
+      Current Block Size 256.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_MAIN]
+      Initial Block Size 16.0 MB
+      Current Block Size 16.0 MB
+      Peak Allocated Bytes 11.2 MB
+      Overflow Count 0
+    [ALLOC_TEMP_CoreBusinessMetricsCache]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetDatabase.IOService]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 32.6 KB
+      Overflow Count 0
+    [ALLOC_TEMP_Loading.PreloadManager] x 3
+      Initial Block Size 32.0 MB
+      Current Block Size 32.0 MB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_Profiler.Dispatcher]
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+    [ALLOC_TEMP_AssetGarbageCollectorHelper] x 11
+      Initial Block Size 64.0 KB
+      Current Block Size 64.0 KB
+      Peak Allocated Bytes 0 B
+      Overflow Count 0
+[ALLOC_MEMORYPROFILER]
+  Requested Block Size 1.0 MB
+  Peak Block count 1
+  Peak Allocated memory 398.9 KB
+  Peak Large allocation bytes 0 B
+[ALLOC_DEFAULT] Dual Thread Allocator
+  Peak main deferred allocation count 120
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 5.5 MB
+    [ALLOC_DEFAULT_MAIN]
+      Requested Block Size 16.0 MB
+      Peak Block count 3
+      Peak Allocated memory 39.5 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_DEFAULT_THREAD]
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 455.7 KB
+      Peak Large allocation bytes 0 B
+[ALLOC_TEMP_JOB_1_FRAME]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_2_FRAMES]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_4_FRAMES (JobTemp)]
+  Initial Block Size 2.0 MB
+  Used Block Count 1
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_TEMP_JOB_ASYNC (Background)]
+  Initial Block Size 1.0 MB
+  Used Block Count 2
+  Overflow Count (too large) 0
+  Overflow Count (full) 0
+[ALLOC_GFX] Dual Thread Allocator
+  Peak main deferred allocation count 0
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 5.5 MB
+    [ALLOC_GFX_MAIN]
+      Requested Block Size 16.0 MB
+      Peak Block count 1
+      Peak Allocated memory 193.7 MB
+      Peak Large allocation bytes 192.0 MB
+    [ALLOC_GFX_THREAD]
+      Requested Block Size 16.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_CACHEOBJECTS] Dual Thread Allocator
+  Peak main deferred allocation count 8882
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 5.5 MB
+    [ALLOC_CACHEOBJECTS_MAIN]
+      Requested Block Size 4.0 MB
+      Peak Block count 9
+      Peak Allocated memory 32.6 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_CACHEOBJECTS_THREAD]
+      Requested Block Size 4.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_TYPETREE] Dual Thread Allocator
+  Peak main deferred allocation count 10586
+    [ALLOC_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 5.5 MB
+    [ALLOC_TYPETREE_MAIN]
+      Requested Block Size 2.0 MB
+      Peak Block count 6
+      Peak Allocated memory 10.7 MB
+      Peak Large allocation bytes 0 B
+    [ALLOC_TYPETREE_THREAD]
+      Requested Block Size 2.0 MB
+      Peak Block count 0
+      Peak Allocated memory 0 B
+      Peak Large allocation bytes 0 B
+[ALLOC_PROFILER]
+  Requested Block Size 16.0 MB
+  Peak Block count 1
+  Peak Allocated memory 41.7 KB
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 336 B
+[ALLOC_PROFILER_EDITOR]
+  Requested Block Size 1.0 MB
+  Peak Block count 0
+  Peak Allocated memory 0 B
+  Peak Large allocation bytes 0 B
+    [ALLOC_PROFILER_BUCKET]
+      Large Block size 32.0 MB
+      Used Block count 1
+      Peak Allocated bytes 336 B
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1644443737012,"processId":56271,"allocatedMemory":43318463,"memoryLabels":[{"Default":36819},{"Permanent":18208},{"Thread":1099224},{"Manager":986939},{"VertexData":91376},{"Geometry":688},{"Particles":17856},{"VFX":768},{"Texture":1548545},{"Shader":234386},{"Material":10948},{"GfxDevice":234384},{"Animation":15118},{"Audio":4508},{"Font":1400},{"FontEngine":4096},{"Physics":2208557},{"Physics2D":1362384},{"Serialization":5463453},{"Input":59504},{"JobScheduler":576},{"GarbageCollector":1049152},{"Mono":92},{"ScriptingNativeRuntime":43520},{"BaseObject":1980360},{"Resource":1180},{"Renderer":8664},{"Transform":48},{"File":20554},{"Network":3032},{"WebCam":24},{"Culling":48},{"Terrain":1065},{"TerrainPhysics":8},{"Wind":24},{"Shadow":448},{"STL":541440},{"String":13977674},{"DynamicArray":3909781},{"HashMap":1302880},{"Utility":2372114},{"Curl":1112},{"PoolAlloc":256352},{"AI":59616},{"TypeTree":2064},{"ScriptManager":903688},{"RuntimeInitializeOnLoadManager":72},{"AncestorCache":32},{"SpriteAtlas":112},{"GI":15312},{"Unet":16},{"Director":7816},{"WebRequest":720},{"VR":45761},{"SceneManager":3568},{"Video":208},{"LazyScriptCache":32},{"ManagedAttributeManager":1},{"TextureStreaming":1416},{"NativeArray":12},{"ScreenCapture":8},{"Camera":25},{"Secure":1},{"CrashReporter":968},{"SerializationCache":624},{"APIUpdating":5872},{"Subsystems":384},{"VirtualTexturing":59424},{"StaticSafetyDebugInfo":327752},{"EditorGui":8020},{"EditorUtility":110951},{"VersionControl":4},{"Undo":482},{"AssetDatabase":2531228},{"AssetImporter":271789},{"RestService":4456},{"EditorGi":23704},{"ProgressiveLightmapper":10832},{"License":48},{"UnityConnect":28584},{"Collab":641},{"Upm":1128},{"DrivenProperties":80},{"HubClient":32},{"LocalIPC":120},{"ProfilerEditor":20117},{"CoreBusinessMetrics":1402},{"AssetReference":32}]}
